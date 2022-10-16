@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+
+	float a, b, c, P;
+	cin >> a;
+	cin >> b;
+	cin >> c;
+	P = b*b - 4 * a * c;
+
+	if (P > 0) {
+
+		cout << "> 0";
+
+	}
+
+	else if (P < 0) {
+
+		cout << "< 0";
+
+	}
+
+	else {
+
+		cout << "== 0";
+
+	}
+}
